@@ -1,0 +1,26 @@
+import React from "react";
+import "./Footer.css";
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <div className="container">
+        <ul>
+          <li>No &copy; copyright issues.</li>
+          <li>Feel free to copy. If you need any help, ping me ! </li>
+          <li className="flexbetween">
+            <a href="https://www.linkedin.com/in/rohan-vashistha-204515206" target="_blank">
+              <i className="fa-brands fa-linkedin-in"></i>
+              &nbsp;
+            </a>
+            <a href="https://github.com/Rohan-Vashistha9s" target="_blank" >
+              <i className="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
